@@ -71,7 +71,7 @@ Here are some features of the theme:
 ## Screenshot
 
 1. Homepage.
-![Post Editor Meta Box](https://github.com/itsaakashpatel/rtcampthemechallenge/blob/master/screenshot/screenshot.png)
+![Post Editor Meta Box](https://github.com/itsaakashpatel/rtcampthemechallenge/blob/master/screenshot/image.png)
 
 ## Changelog
 
