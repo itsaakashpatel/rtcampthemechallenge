@@ -32,7 +32,7 @@ function partners_post_type() {
         'description' => __('List of partners', 'onetheme'),
         'labels' => $labels,
         // Features this CPT supports in Post Editor
-        'supports' => array('title', 'editor', 'excerpt', 'author', 'thumbnail', 'comments', 'revisions'),
+        'supports' => array('title', 'editor', 'excerpt', 'author', 'thumbnail', 'comments', 'revisions', 'page-attributes'),
         /* A hierarchical CPT is like Pages and can have
          * Parent and child items. A non-hierarchical CPT
          * is like Posts.
@@ -56,8 +56,8 @@ function partners_post_type() {
 }
 
 /* Hook into the 'init' action so that the function
- * Containing our post type registration is not
- * unnecessarily executed.
+ * Containing our post type registration is not 
+ * unnecessarily executed. 
  */
 
 add_action('init', 'partners_post_type', 0);
@@ -89,7 +89,7 @@ function exhibition_functions_type() {
         'description' => __('List of Exhibitions', 'onetheme'),
         'labels' => $labels,
         // Features this CPT supports in Post Editor
-        'supports' => array('title', 'editor', 'excerpt', 'author', 'thumbnail', 'comments', 'revisions'),
+        'supports' => array('title', 'editor', 'excerpt', 'author', 'thumbnail', 'comments', 'revisions', 'page-attributes'),
         /* A hierarchical CPT is like Pages and can have
          * Parent and child items. A non-hierarchical CPT
          * is like Posts.
@@ -113,8 +113,8 @@ function exhibition_functions_type() {
 }
 
 /* Hook into the 'init' action so that the function
- * Containing our post type registration is not
- * unnecessarily executed.
+ * Containing our post type registration is not 
+ * unnecessarily executed. 
  */
 
 add_action('init', 'exhibition_functions_type', 0);
@@ -146,7 +146,7 @@ function work_post_type() {
         'description' => __('List of works', 'onetheme'),
         'labels' => $labels,
         // Features this CPT supports in Post Editor
-        'supports' => array('title', 'editor', 'excerpt', 'author', 'thumbnail', 'comments', 'revisions'),
+        'supports' => array('title', 'editor', 'excerpt', 'author', 'thumbnail', 'comments', 'revisions', 'page-attributes'),
         /* A hierarchical CPT is like Pages and can have
          * Parent and child items. A non-hierarchical CPT
          * is like Posts.
@@ -170,8 +170,8 @@ function work_post_type() {
 }
 
 /* Hook into the 'init' action so that the function
- * Containing our post type registration is not
- * unnecessarily executed.
+ * Containing our post type registration is not 
+ * unnecessarily executed. 
  */
 
 add_action('init', 'work_post_type', 0);

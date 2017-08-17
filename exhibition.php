@@ -33,7 +33,7 @@ if ($slider_posts) {
     }
 }
 ?>
-<div class="exhibition">
+<div class="exhibition" align="center">
     <div class="row1">
         <div class="col-md-3">
             <a href="<?php echo $link[0]; ?>" target="_self"> <img src="<?php echo $image[0]; ?>" alt="image0" style="border: 2px solid #a9a9a9"></a>

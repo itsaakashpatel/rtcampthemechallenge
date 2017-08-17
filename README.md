@@ -7,12 +7,12 @@ rtTheme Theme Assignment
 
 **License:** [GPLv2 or later](http://www.gnu.org/licenses/gpl-2.0.html).
 
-**Tags:** right-sidebar, flexible-header, accessibility-ready, custom-menu, custom-logo, featured-images, footer-widgets, sticky-post, theme-options, custom-post-types 
+**Tags:** Right-sidebar, flexible-header, accessibility-ready, custom-menu, custom-logo, featured-images, footer-widgets, sticky-post, theme-options, custom-post-types 
 
 ## Description ##
 rtCamp Wordpress Theme Assignment
 * It has most of functionality from complex theme assignment of rtcamp.
-* We can manage logo, youtube video slider settings, twitter profile, facebook page username and perticular sticky page from theme panel page.
+* We can manage logo, youtube video slider settings, twitter profile, facebook page username and sticky page from theme panel page.
 * Easy to setup, integrate and use.
 
 Here are some features of the theme:
@@ -20,10 +20,10 @@ Here are some features of the theme:
 * Google Custom Search
 * Custom post types (Our partners, Exhibition, Our work)
 * Latest Tweets excluding "@" mention tweets box
-* Custom widgets for user selected pages, news category, important links.
-* Ourpartners and specified youtube videos slider
+* Custom widgets for user selected pages, news category, and important links.
+* Ourpartners and specified youtube videos sliders
 * Two Menus (Header and Top)
-* Theme Options page for managing logo, youtube video links, facebook page username, twiiter profile and sticky page.
+* Theme Options page for managing logo, youtube video links, facebook page username, twitter profile and sticky page.
 * Facebook like box
 * Weather of user entered city
 
@@ -39,11 +39,11 @@ Here are some features of the theme:
 
 ## Custom Post Type Information:
 
-**Our Partnersr**
+**Our Partner**
 * In this section, We can add and edit partners and those partner's featured images will be displayed as a slider on the homepage. 
 
 **Our Work**
-* In this section, We can add and edit works that company has been doing and featured images of most recent works will be displayed as a main  slider on the homepage.
+* In this section, We can add and edit works that company has been doing and featured images of most recent works will be displayed as a main slider on the homepage.
 
 **Exhibitions**
 * In this section, We can add and edit the information of all exhibitions and visitors can access full information of any exhibition from homepage.
@@ -87,6 +87,6 @@ https://aakashpatel.in
 - [WordPress Codex] (http://codex.wordpress.org/)
 - [SitePoint] (https://www.sitepoint.com/)
 - [Wpbeginner] (http://www.wpbeginner.com/)
-- [wpmudev] (https://premium.wpmudev.org/blog/)
+- [Wpmudev] (https://premium.wpmudev.org/blog/)
 - [StackOverflow] (https://premium.wpmudev.org/blog/)
 - [Envatotuts+] (https://code.tutsplus.com/)

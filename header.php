@@ -13,58 +13,8 @@
 <html <?php language_attributes(); ?>>
     <head>
         <meta charset="<?php bloginfo('charset'); ?>">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <link rel="profile" href="http://gmpg.org/xfn/11">
-        <script src="<?php echo get_template_directory_uri(); ?>/js/jssor.slider-25.2.1.min.js" type="text/javascript"></script>
-        <script src="<?php echo get_template_directory_uri(); ?>/js/newjavascript.js" type="text/javascript"></script>
-        <script type="text/javascript">
-            jssor_1_slider_init = function () {
-
-                var jssor_1_options = {
-                    $AutoPlay: 1,
-                    $AutoPlaySteps: 4,
-                    $SlideDuration: 160,
-                    $SlideWidth: 200,
-                    $SlideSpacing: 3,
-                    $Cols: 5,
-                    $Align: 390,
-                    $ArrowNavigatorOptions: {
-                        $Class: $JssorArrowNavigator$,
-                        $Steps: 5
-                    },
-                    $BulletNavigatorOptions: {
-                        $Class: $JssorBulletNavigator$
-                    }
-                };
-
-                var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
-
-                /*#region responsive code begin*/
-                function ScaleSlider() {
-                    var containerElement = jssor_1_slider.$Elmt.parentNode;
-                    var containerWidth = containerElement.clientWidth;
-                    if (containerWidth) {
-                        var MAX_WIDTH = 980;
-
-                        var expectedWidth = containerWidth;
-
-                        if (MAX_WIDTH) {
-                            expectedWidth = Math.min(MAX_WIDTH, expectedWidth);
-                        }
-
-                        jssor_1_slider.$ScaleWidth(expectedWidth);
-                    } else {
-                        window.setTimeout(ScaleSlider, 30);
-                    }
-                }
-
-                ScaleSlider();
-                $Jssor$.$AddEvent(window, "load", ScaleSlider);
-                $Jssor$.$AddEvent(window, "resize", ScaleSlider);
-                $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
-                /*#endregion responsive code end*/
-            };
-        </script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <?php wp_head(); ?>
     </head>
@@ -101,17 +51,13 @@
                                         ?>
                                     </div>    
                                 </div> 
-
-
                             </div>
                         </nav>
 
                         <div class="row">
                             <div class="col-sm-6 col-md-4">
-                                <div class="customelogo">
+                                <div class="customelogo" align="center" style="margin:25px;">
                                     <?php
-                                    the_custom_logo();
-
                                     echo '<img src="' . get_option("theme_onetheme_logo") . '" alt="logo">';
                                     if (is_front_page() && is_home()) :
                                         ?>

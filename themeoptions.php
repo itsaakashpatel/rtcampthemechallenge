@@ -1,4 +1,3 @@
-
 <?php
 
 function add_theme_menu_item() {

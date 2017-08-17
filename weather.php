@@ -66,7 +66,6 @@ class weather_widget extends WP_Widget {
         <p><label for="<?php echo $this->get_field_id('city'); ?>"><?php _e('Enter City Name:'); ?></label>
             <input class="widefat" id="<?php echo $this->get_field_id('city'); ?>" name="<?php echo $this->get_field_name('city'); ?>" type="text" value="<?php echo $city; ?>" placeholder="City Name Here"/></p>
 
-
         <?php
     }
 

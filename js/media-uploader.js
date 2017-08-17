@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-/* global hello */
+/* Wordpress media uploader */
 
 jQuery(document).ready(function() {
        jQuery('#upload_logo_button').click(function() {
