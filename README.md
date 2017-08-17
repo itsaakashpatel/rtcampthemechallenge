@@ -1,4 +1,4 @@
-rtTheme Theme Assignment
+rtCamp Theme Assignment
 ==================
 
 **Contributor:** Aakash Patel
@@ -39,7 +39,7 @@ Here are some features of the theme:
 
 ## Custom Post Type Information:
 
-**Our Partner**
+**Our Partners**
 * In this section, We can add and edit partners and those partner's featured images will be displayed as a slider on the homepage. 
 
 **Our Work**
