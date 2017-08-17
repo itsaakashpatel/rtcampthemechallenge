@@ -44,8 +44,17 @@ function theme_settings_page() {
         $vid5 = esc_attr($_POST['slider5']);
         update_option("theme_onetheme_slider5", $vid5);
 
-        $fbusername = esc_attr($_POST['fbusername']);
-        update_option("fb_username", $fbusername);
+        $twitter_customer_key = esc_attr($_POST['twitter_customer_key']);
+        update_option("twitter_customer_key", $twitter_customer_key);
+
+        $twitter_customer_secret = esc_attr($_POST['twitter_customer_secret']);
+        update_option("twitter_customer_secret", $twitter_customer_secret);
+
+        $twitter_access_token = esc_attr($_POST['twitter_access_token']);
+        update_option("twitter_access_token", $twitter_access_token);
+
+        $twitter_access_token_secret = esc_attr($_POST['twitter_access_token_secret']);
+        update_option("twitter_access_token_secret", $twitter_access_token_secret);
 
         $twitterprofile = esc_attr($_POST['twitterprofile']);
         update_option("twitter_profile", $twitterprofile);
@@ -172,7 +181,11 @@ function fb_username() {
 
 function twitter_username() {
     ?>
-    <input id="twitter" type="text" name="twitterprofile" />
+    Twitter_customer_key<input id="twitter" type="text" name="twitter_customer_key" /></br>
+    Twitter_customer_secret<input id="twitter" type="text" name="twitter_customer_secret" /></br>
+    Twitter_access_token<input id="twitter" type="text" name="twitter_access_token" /></br>
+    Twitter_access_token_secret<input id="twitter" type="text" name="twitter_access_token_secret" /></br>
+    Username<input id="twitter" type="text" name="twitterprofile" />
 
     <?php
 }
